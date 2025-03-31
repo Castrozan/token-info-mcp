@@ -1,0 +1,51 @@
+{
+	"name": "@castrozan/token-info-mcp",
+	"version": "1.0.0",
+	"description": "MCP server para validar tokens Betha",
+	"author": {
+		"name": "Lucas Zanoni",
+		"email": "castro.lucas290@gmail.com",
+		"url": "https://github.com/castrozan"
+	},
+	"license": "MIT",
+	"engines": {
+		"npm": ">=10.0.0",
+		"node": ">=22.0.0"
+	},
+	"scripts": {
+		"build": "tsc",
+		"dev": "NODE_ENV=development tsx watch ./src/server.ts",
+		"clean": "rm -rf lib",
+		"publish": "npm run clean && npm run build && npm publish"
+	},
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		}
+	},
+	"bin": {
+		"token-info-server": "cli.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.7.0",
+		"express": "^4.21.2",
+		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@stylistic/eslint-plugin": "^4.2.0",
+		"@types/node": "^22.13.10",
+		"@typescript-eslint/eslint-plugin": "^8.21.0",
+		"@typescript-eslint/parser": "^8.21.0",
+		"eslint": "^9.19.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-prettier": "^5.2.3",
+		"prettier": "^3.4.2",
+		"tsx": "^4.19.2",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.21.0"
+	}
+}
