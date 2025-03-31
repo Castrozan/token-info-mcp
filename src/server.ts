@@ -3,13 +3,13 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod';
 
 const server = new McpServer({
-    name: 'betha-token-info',
+    name: 'token-info-mcp',
     version: '1.0.0'
 });
 
 server.tool(
-    'verify-token',
-    'Verify an OAuth token and get its information',
+    'verify_betha_token',
+    'Verify an OAuth token on Betha services and get its information',
     {
         accessToken: z.string().describe('The OAuth access token to verify')
     },
