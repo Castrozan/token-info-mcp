@@ -1,6 +1,6 @@
 {
 	"name": "@castrozan/token-info-mcp",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "MCP server para validar tokens Betha",
 	"author": {
 		"name": "Lucas Zanoni",
