@@ -16,7 +16,8 @@
 		"build": "tsc",
 		"dev": "NODE_ENV=development tsx watch ./src/server.ts",
 		"clean": "rm -rf lib",
-		"publish": "npm run clean && npm run build && npm publish"
+		"prepublishOnly": "npm run clean && npm run build",
+		"publish": "npm publish --access public"
 	},
 	"exports": {
 		"./package.json": "./package.json",
