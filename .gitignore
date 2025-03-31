@@ -30,8 +30,5 @@ node_modules
 .DS_Store
 Thumbs.db
 
-# Ignore built ts files
-lib/
-
 # ignore yarn.lock
 yarn.lock
