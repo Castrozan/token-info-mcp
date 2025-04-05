@@ -2,6 +2,8 @@
 
 Servidor MCP (Model Context Protocol) para validação de tokens OAuth da Betha Sistemas.
 
+> Acesse em https://www.npmjs.com/package/@castrozan/token-info-mcp
+
 ## 📋 Descrição
 
 Este projeto fornece uma ferramenta para verificar e obter informações detalhadas sobre tokens OAuth da Betha.
