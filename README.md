@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/castrozan-token-info-mcp-badge.png)](https://mseep.ai/app/castrozan-token-info-mcp)
+
 # Token Info MCP
 
 Servidor MCP (Model Context Protocol) para validação de tokens OAuth da Betha Sistemas.
