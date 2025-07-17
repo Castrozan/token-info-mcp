@@ -2,6 +2,8 @@
 
 # Token Info MCP
 
+[![smithery badge](https://smithery.ai/badge/@Castrozan/token-info-mcp)](https://smithery.ai/server/@Castrozan/token-info-mcp)
+
 Servidor MCP (Model Context Protocol) para validação de tokens OAuth da Betha Sistemas.
 
 > Acesse em https://www.npmjs.com/package/@castrozan/token-info-mcp
