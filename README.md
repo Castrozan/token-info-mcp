@@ -2,7 +2,7 @@
 
 # Token Info MCP
 
-[![smithery badge](https://smithery.ai/badge/@Castrozan/token-info-mcp)](https://smithery.ai/server/@Castrozan/token-info-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.Castrozan/token-info-mcp)](https://lightnow.ai/servers/io.github.Castrozan/token-info-mcp)
 
 Servidor MCP (Model Context Protocol) para validação de tokens OAuth da Betha Sistemas.
 
